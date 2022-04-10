@@ -1,0 +1,7 @@
+# 节点配置片段包含一些节点配置信息；可通过资源引用的方式使用。
+# 片段文件将保存在 Quantumult X 目录下的 Profiles 子目录中。
+# 样例可参见 https://raw.githubusercontent.com/crossutility/Quantumult-X/master/server-complete.snippet
+ 
+http=192.168.31.113:7890, fast-open=false, udp-relay=false, tag=192.168.31.113
+ 
+;shadowsocks=example.com:80, method=chacha20, password=pwd, obfs=http, obfs-host=bing.com, obfs-uri=/resource/file, fast-open=false, udp-relay=false, server_check_url=http://www.apple.com/generate_204, tag=ss-01
